@@ -1,4 +1,4 @@
-package binary_search;
+package linear_search;
 // question - https://leetcode.com/problems/richest-customer-wealth/
 public class RichestCustomerWealth {
     public static void main(String[] args) {
