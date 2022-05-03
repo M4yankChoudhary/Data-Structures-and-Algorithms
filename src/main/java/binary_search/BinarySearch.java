@@ -1,4 +1,5 @@
 package binary_search;
+import java.util.Scanner;
 
 public class BinarySearch {
 
@@ -8,7 +9,10 @@ public class BinarySearch {
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
         };  // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         //      ^L                         ^R   --- pointers (left & right)
-        System.out.println("Target found at index: " + search(arr, 5));
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();    
+        System.out.println("Target found at index: " + search(arr, n));
+        scanner.close();
     }
 
     public static int search(int[] arr, int target) {
